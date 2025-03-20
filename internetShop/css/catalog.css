@@ -1,0 +1,167 @@
+.card {
+    width: 340px;
+    height: 340px;
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card hr {
+    width: 320px;
+}
+
+.card h3 {
+    font-weight: 500;
+
+}
+
+.card_img {
+    height: 180px;
+    margin: 20px auto;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 50px;
+    display: flex;
+    width: 81%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card_subblock {
+    position: absolute;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    top: 290px;
+}
+
+a {
+    color: black;
+}
+
+.catalog_main_block {
+    display: flex;
+}
+
+.insert_block {
+    max-width: 450px;
+    width: 18%;
+    margin: 0 auto;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    gap: 10px;
+}
+
+.input {
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1.5px solid rgba(255, 255, 255);
+    width: 200px;
+    color: rgba(255, 255, 255);
+    backdrop-filter: blur(20px);
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input:hover {
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.02);
+}
+
+.input:focus {
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.02);
+}
+
+input[type='submit'] {
+    padding: 7px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    background: white;
+    color: black;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px white solid;
+    text-transform: uppercase;
+}
+
+input[type='submit']:hover {
+    background: transparent;
+    color: white;
+}
+
+.insert_block h2 {
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.type_select {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.type_select input[type='submit'] {
+    background: black;
+    color: white;
+    border: 2px black solid;
+}
+
+.type_select input[type='submit']:hover {
+    background: white;
+    color: black;
+}
+
+.log_out_link {
+    background: black;
+    color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+
+.log_out_link:hover {
+    background: white;
+    color: black;
+}
+
+.insert_block div label {
+    color: white;
+}
+
+.form_db_block {
+    display: flex;
+}
+
+.notification_title {
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
